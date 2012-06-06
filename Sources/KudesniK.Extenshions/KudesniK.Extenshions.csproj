@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Temp\Buffer.cs" />
+    <Compile Include="CircleItem.cs" />
+    <Compile Include="ReversedCircle.cs" />
+    <Compile Include="ConcurrentCounter.cs" />
     <Compile Include="ReadWriteLocker\Lockes\ReadLock.cs" />
     <Compile Include="ReadWriteLocker\Interfaces\ILock.cs" />
     <Compile Include="ReadWriteLocker\Interfaces\ILocker.cs" />
